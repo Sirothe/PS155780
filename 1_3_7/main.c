@@ -11,7 +11,7 @@ int main()
             x1=(-b-sqrt(delta))/2*a;
             x2=(-b+sqrt(delta))/2*a;
             printf("%f",x1);
-            printf("%f",x1);
+            printf("%f",x2);
         }
         if(delta==0){
             x1=(-b)/2*a;
@@ -26,10 +26,11 @@ int main()
             printf("%f",x3);
         }
         if(b=0){
-            if(c=0){
-                printf("Nieskonczenie wiele rozwiazan");
-            }else{
-            printf("brak rozwiazan");
+            if(c!=0){
+                printf("Nie posiada rozwiazan");
+            }
+			else{
+            printf("Posiada nieskonczenie wiele rozwiazan");
             }
         }
     }
