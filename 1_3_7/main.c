@@ -8,13 +8,13 @@ int main()
     if(a!=0){
         float delta=pow(b,2)-4*a*c;
         if(delta>0){
-            x1=(-b-sqrt(delta))/2*a;
-            x2=(-b+sqrt(delta))/2*a;
+            x1=(-b-sqrt(delta))/(2*a);
+            x2=(-b+sqrt(delta))/(2*a);
             printf("%f",x1);
             printf("%f",x2);
         }
         if(delta==0){
-            x1=(-b)/2*a;
+            x1=-b/(2*a);
             printf("%f",x1);
         }
         if(delta<0){
