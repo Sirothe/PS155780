@@ -6,7 +6,7 @@ int main()
     float a,b,c,x1,x2,x3;
     scanf("%i%i%i",&a,&b,&c);
     if(a!=0){
-        float delta=pow(a,2)-4*a*c;
+        float delta=pow(b,2)-4*a*c;
         if(delta>0){
             x1=(-b-sqrt(delta))/2*a;
             x2=(-b+sqrt(delta))/2*a;
@@ -20,14 +20,15 @@ int main()
         if(delta<0){
             printf("Nie ma rozwiazania");
         }
-    }if(a=0){
+    }
+	if(a=0){
         if(b!=0){
             x3=(-c)/b;
             printf("%f",x3);
         }
         if(b=0){
             if(c!=0){
-                printf("Nie posiada rozwiazan");
+                printf("Nie ma rozwiazania");
             }
 			else{
             printf("Posiada nieskonczenie wiele rozwiazan");
