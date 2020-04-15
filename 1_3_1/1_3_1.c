@@ -2,8 +2,12 @@
 #include <stdlib.h>
 
 int main() {
-	int x;
-	scanf("%i", &x);
-	printf("%i", abs(x));
-	return 0;
+    int x;
+    scanf("%i",&x);
+    if(n < 0)
+	{
+        x*=-1;
+    }
+    printf("%i",x);
+    return 0;
 }
