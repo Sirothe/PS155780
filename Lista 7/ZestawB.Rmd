@@ -1,0 +1,62 @@
+---
+title: "Zestaw B"
+output:
+  word_document: default
+  pdf_document: default
+header-includes: \usepackage[polish]{babel}
+---
+
+
+1. W folderze DebugB znajduje się projekt z kodem w języku C. W pliku main.c w niektórych linijkach są komentarze. Twoim zadaniem jest wpisanie wartości odpowiednich zmiennych po wykonaniu konkretnej linii kodu.
+
+*Punktacja: 1 pkt za każdą poprawną linijkę, łącznie 8 pkt.*
+
+2. Napisz funkcję, która jako argument otrzymuje dodatnią liczbę całkowitą $n$ i zwraca liczbę $\lceil \sqrt{n} \rceil$. Nie korzystaj z żadnych gotowych funkcji bibliotecznych. Symbol $\lceil \ \rceil$ oznacza najmniejszą liczbę całkowitą większą lub równą od wyjściowej liczby.
+
+|Przykładowe wejście |2| 16 |29|99|
+|---|---|---|---|---|
+|Przykładowe wyjście | 2 | 4 |6|10|
+
+*Punktacja: 7 pkt.*
+
+3. Napisz funkcję `Zamiana`. Parametrem funkcji ma być wskaźnik do zmiennej typu `double`. Zadaniem funkcji jest zamiana wartości wskazywanej zmiennej z sześcianem danej liczby (jeśli wartość wynosi 3 należy zamienić na 27). Stwórz w programie dwa przypadki testowe.
+
+*Punktacja: 7 pkt.*
+
+4. Napisz funkcję sprawdzającą dwie tablice jednowymiarowe typu `int` o takich samych rozmiarach. Funkcja powinna zwrócić wartość "1" jeśli obie tablice zawierają tylko liczby parzyste, wartość "2" jeśli obie tablce zawierają tylko liczby nieparzyste, wartość "0" w pozostałych wypadkach.
+
+*Punktacja: 8 pkt.*
+
+5. Napisz funkcję rekurencyjną, która dla otrzymanej w argumencie
+nieujemnej liczby całkowitej $n$ zwraca wartość elementu o indeksie $n$
+ciągu zdefiniowanego w następujący sposób
+
+$$a_0=a_1=1$$
+
+$$a_n=2\cdot a_{n-1}+6, \ n \textrm{-nieparzyste,}$$
+$$a_n=- a_{n-1}+5, \ n \textrm{-parzyste,}$$
+
+Przypadki testowe dla funkcji:
+
+| $n$ |  $a_n$ |
+|---|---|
+| 2 | 4 | 
+| 3 | 14 | 
+| 4 | -9 | 
+
+*Punktacja: 7 pkt.*
+
+6. Stwórz program, w którym wykonasz poniższe czynności:
+* stwórz tablicę jednowymiarową 7-elementową typu `int` i uzupełnij ją dowolnym wartościami,
+* za pomocą pętli sprawdź w tej tablicy ile jest liczb parzystych na elemntach o parzystych indeksach, wynik wyświetl na konsoli (uwaga: uwzględnij liczby dodatnie, ujemne i zero, zero jest liczbą parzystą).
+
+*Punktacja: 7 pkt.*
+
+
+7. W folderze PoprawB znajduje się kod w języku C, który nie spełnia zasad kompilacji. Popraw kod modyfikując co najwyżej 2 linijki tak, aby się kompilował. Zabronioną operacją jest komentowanie kodu.
+
+
+*Punktacja: 6 pkt.*
+
+**Po zakończonej pracy wszystkie pliki z kodem (własne i poprawione) umieść w jednym folderze na puplicie komputera. Spakuj folder i zmień nazwę archiwum pokrywającą się z Twoim numerem indeksu/albumu/legitymacji. Sprawdzeniu podlegać będzie tylko i wyłączenie zawartość archiwum.**
+
