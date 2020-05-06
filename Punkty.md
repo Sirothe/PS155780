@@ -1,9 +1,9 @@
-Stan na dzień: 29.04.2020 08:13
+Stan na dzień: 6.05.2020 08:21
 
 | Lista 1 | Lista 2 | Lista 3 | Lista 4 | Lista 5 |
 |---|---|---|---|---|
 | 2 pkt | 2 pkt | 2 pkt | 2 pkt | 2 pkt |
 
-| Lista 6 | Lista 7 | koło 1 | Lista 8/9 |
-|---|---|---|---|
-| 2 pkt | brak | 28 pkt | brak |
+| Lista 6 | Lista 7 | koło 1 | Lista 8/9 | Lista 10 |
+|---|---|---|---|---|
+| 2 pkt |2 pkt | 28 pkt | 2 pkt | brak |
