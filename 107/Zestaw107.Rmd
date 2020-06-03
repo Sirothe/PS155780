@@ -1,0 +1,52 @@
+---
+title: "Zestaw 107"
+lang: pl
+output:
+  word_document: default
+  pdf_document: default
+---
+
+
+1. W folderze Debug107 znajduje się projekt z kodem w języku C. W pliku main.c w niektórych linijkach są komentarze. Twoim zadaniem jest wpisanie wartości odpowiednich zmiennych po wykonaniu konkretnej linii kodu. Dopisanie nowych linijek i instrukcji poza komentarzami będzie powodowało 0 pkt. Adresy muszą obowiązkowo być w systemie szesnastkowym.
+
+*Punktacja: 7 pkt.*
+
+2. Napisz funkcję, która dostaje w argumencie napis i zamienia wszystkie występujące w nim duże litery na znak `'#'`. Następnie usuń wszystkie znaki `'#'` z napisu. W zadaniu nie korzystaj z funkcji bibliotecznych. Stwórz przypadek testowy.
+
+*Punktacja: 8 pkt.*
+
+3. Napisz funkcję, której argumentem jest dwuwymiarowa tablica tablic i jej wymiary $n$ i $m$. Funkcja ma zwrócić średnią geometryczną elementów na głównej przekątnej. Stwórz przypadek testowy.
+
+Przykład: dla poniższej tablicy ma wyjść: średnia geometryczna z elementów 2,8,2.
+
+| | | | |
+|---|---|---|---|
+| 2 | 3| 2 | 8 |
+| 1 | 8 | 4 | 3|
+| 3| 5| 2 | 9 |
+
+Info czym jest średnia geometryczna https://pl.wikipedia.org/wiki/%C5%9Arednia_geometryczna
+
+Dla ułatwienia możesz przyjąć, że tablica ma tylko wartości dodatnie (bez potrzeby weryfikowania tego w kodzie).
+
+
+*Punktacja: 12 pkt.*
+
+4. Stwórz unię `Test` przechowującą dwa pola: `a` typu `char` i `b` typu `double`. Stwórz program zawierający tablicę 6 elementów typu `Test`. Wypisz na konsoli zawartość tablicy.
+
+
+*Punktacja: 8 pkt.*
+
+5. Napisz funkcję, która przyjmuje jako argument listę z głową o elementach typu:
+
+```c
+struct element {
+    int t;
+    struct element * next;
+};
+```
+
+i zwraca wskaźnik na pierwszy nieparzysty element na liście. Jeśli lista jest pusta lub nie ma elementów nieparzystych, funkcja ma zwrócić `NULL`. Stwórz jeden przypadek testowy.
+
+
+*Punktacja: 15 pkt.*
